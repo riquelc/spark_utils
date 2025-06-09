@@ -12,7 +12,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/seu-usuario/spark-utils",
-    packages=find_packages(),
+    packages=['spark_utils'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
@@ -23,6 +23,7 @@ setup(
         'pyspark>=3.0.0',
     ],
     package_data={
-        'spark_utils': ['*.py'],
+        'spark_utils': ['*.py', 'README.md', 'LICENSE', 'setup.py'],
     },
+    include_package_data=True,
 )

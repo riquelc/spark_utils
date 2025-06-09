@@ -1,0 +1,8 @@
+include README.md
+include LICENSE
+recursive-include spark_utils *.py
+include spark_utils/*
+include spark_utils/flatten.py
+include spark_utils/__init__.py
+include spark_utils/example_usage.py
+include spark_utils/setup.py
