@@ -1,6 +1,10 @@
 MIT License
 
+<<<<<<< HEAD
 Copyright (c) 2025 riquelc
+=======
+Copyright (c) 2025 Henrique Lamera Carvalho
+>>>>>>> 4203cc6 (Initial commit: Spark Utils library with JSON flattening utilities)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
